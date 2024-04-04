@@ -18,11 +18,13 @@ To get started, clone this repository or download the ZIP. Prepare to integrate 
 ```bash
 git clone https://github.com/Int13Consulting/anthropic-api-client.git
 cd anthropic-api-client
+```
 
 ## Example Usage 📝
 
 Dive into the AI conversation with a classic question. Here's how you can ask Claude about starting a business, leveraging our intuitive Java client:
 
+```bash
 String apiKey = "your-real-api-key-here"; // Guard this with your life!
 String model = "claude-3-opus-20240229"; // The model of your destiny
 String apiVersion = "2023-06-01"; // The version of the future

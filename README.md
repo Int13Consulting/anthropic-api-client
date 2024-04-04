@@ -37,6 +37,7 @@ request.addMessage(userMessage);
 AnthropicResponse response = aiClient.submitRequest(request);
 
 System.out.println("Claude's wisdom: " + response.getContent().get(0).getText());
+```
 
 ## Contributing 🤝
 
